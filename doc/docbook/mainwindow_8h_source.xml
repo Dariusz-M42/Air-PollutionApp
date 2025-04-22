@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_mainwindow_8h_source" xml:lang="en-US">
+<title>mainwindow.h</title>
+<indexterm><primary>C:/Users/dariu/Documents/Air-PollutionApp/mainwindow.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#include&#32;&lt;QApplication&gt;</emphasis>
+2 <emphasis role="preprocessor">#include&#32;&lt;QMainWindow&gt;</emphasis>
+3 <emphasis role="preprocessor">#include&#32;&lt;QVBoxLayout&gt;</emphasis>
+4 <emphasis role="preprocessor">#include&#32;&lt;QHBoxLayout&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;QLabel&gt;</emphasis>
+6 <emphasis role="preprocessor">#include&#32;&lt;QLineEdit&gt;</emphasis>
+7 <emphasis role="preprocessor">#include&#32;&lt;QPushButton&gt;</emphasis>
+8 <emphasis role="preprocessor">#include&#32;&lt;QTextEdit&gt;</emphasis>
+9 <emphasis role="preprocessor">#include&#32;&lt;QMessageBox&gt;</emphasis>
+10 <emphasis role="preprocessor">#include&#32;&lt;QFileDialog&gt;</emphasis>
+11 <emphasis role="preprocessor">#include&#32;&lt;QNetworkAccessManager&gt;</emphasis>
+12 <emphasis role="preprocessor">#include&#32;&lt;QNetworkReply&gt;</emphasis>
+13 <emphasis role="preprocessor">#include&#32;&lt;QNetworkRequest&gt;</emphasis>
+14 <emphasis role="preprocessor">#include&#32;&lt;QtCharts/QChartView&gt;</emphasis>
+15 <emphasis role="preprocessor">#include&#32;&lt;QtCharts/QLineSeries&gt;</emphasis>
+16 <emphasis role="preprocessor">#include&#32;&lt;QtCharts/QDateTimeAxis&gt;</emphasis>
+17 <emphasis role="preprocessor">#include&#32;&lt;QtCharts/QValueAxis&gt;</emphasis>
+18 <emphasis role="preprocessor">#include&#32;&lt;QDateTime&gt;</emphasis>
+19 
+20 <emphasis role="preprocessor">#include&lt;nlohmann/json.hpp&gt;</emphasis>
+21 <emphasis role="preprocessor">#include&#32;&lt;fstream&gt;</emphasis>
+22 <emphasis role="preprocessor">#include&lt;windows.h&gt;</emphasis>
+23 
+24 <emphasis role="keyword">using&#32;</emphasis>json&#32;=&#32;nlohmann::json;
+</programlisting></section>
