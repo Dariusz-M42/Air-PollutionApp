@@ -1,0 +1,3 @@
+Program można uruchomić na każdym komputerze z systemem Windows 10/11.
+Do pobrania/zainstalowania programu potrzebne jest 54.3 MB wolnego miejsca.
+Do programu dołączone zostały biblioteki .dll Qt, samo Qt oraz program Qt Creator nie są więc konieczne do uruchomienia aplikacji.
