@@ -12,7 +12,8 @@
  * \version 1.4
  * \date 22/04/2025
  * \bug Skalowanie wykresów uniemożliwia odczytanie osi czasu - użytkownik powinien przyjąć,
- * że początek wykresu tworzą dane pochodzące sprzed dwóch dni, a koniec wykresu to dane z dnia obecnego
+ * że każdy fragment wykresu oddzielony pionowo oznacza jeden dzień przy czym początek wykresu
+ * to dane sprzed dwóch dni a koniec to prognoza na trzeci dzień od dnia wywołania skryptu.
  * \copyright GNU Public License
  */
 
@@ -66,7 +67,8 @@ private slots:
                                                 "https://air-quality-api.open-meteo.com/v1/air-quality?"
                                                 "latitude=%1&longitude=%2&"
                                                 "hourly=pm10,pm2_5,nitrogen_dioxide&"
-                                                "forecast_days=2"
+                                                "past_days=2&"
+                                                "forecast_days=3"
                                                 ).arg(lat).arg(lon);
 
                     networkManager->get(QNetworkRequest(QUrl(airQualityUrl)));
@@ -163,7 +165,7 @@ private slots:
         chart->setAnimationOptions(QChart::SeriesAnimations);
 
         QDateTimeAxis *axisX = new QDateTimeAxis();
-        axisX->setFormat("dd MMM hh:mm");
+        axisX->setFormat("dd MM hh:mm");
         axisX->setTitleText("Czas");
         chart->addAxis(axisX, Qt::AlignBottom);
         series->attachAxis(axisX);
