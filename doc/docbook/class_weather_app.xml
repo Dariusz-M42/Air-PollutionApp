@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_weather_app" xml:lang="en-US">
+<title>WeatherApp Class Reference</title>
+<indexterm><primary>WeatherApp</primary></indexterm>
+<para>
+
+<para>Klasa obsługująca pełne działanie aplikacji. </para>
+ 
+</para>
+<para>Inheritance diagram for WeatherApp:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_weather_app.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_weather_app_1a28528e929a4ba34e5b2d69806274bceb"/><emphasis role="strong">WeatherApp</emphasis> (QWidget *parent=nullptr)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Klasa obsługująca pełne działanie aplikacji. </para>
+
+
+
+<para>W tej klasie znajdują się wszystkie funkcje zapewniające działanie aplikacji. Aplikacja pobiera dane z OpenWeather API, wyświetla dane o jakości powietrza w formie wykresów, podaje lokalizację oraz kraj stacji pomiarowej, podaje wartości minimalne, maksymalne oraz średnie dla szkodliwych czynników typu PM10, PM2.5 oraz NO2. Aplikacja oferuje &quot;tryb offline&quot;: jeśli wcześniej aplikacja została wykorzystana do wyszukania danych dla dowolnej lokalizacji, będzie można skorzystać z zapisanego pliku JSON do odtworzenia poprzednich danych. <formalpara><title>Author</title>
+
+<para>Dariusz Murawko </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.4 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>22/04/2025 </para>
+</formalpara>
+<para><link linkend="_bug_1_bug000001">Bug</link> 
+<para>Skalowanie wykresów uniemożliwia odczytanie osi czasu - użytkownik powinien przyjąć, że każdy fragment wykresu oddzielony pionowo oznacza jeden dzień przy czym początek wykresu to dane sprzed dwóch dni a koniec to prognoza na trzeci dzień od dnia wywołania skryptu. </para>
+</para><formalpara><title>Copyright</title>
+
+<para>GNU Public License </para>
+</formalpara>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/dariu/Documents/Air-PollutionApp/main.cpp</section>
+</section>
