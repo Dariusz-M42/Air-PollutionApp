@@ -1,0 +1,43 @@
+\doxysection{Weather\+App Class Reference}
+\hypertarget{class_weather_app}{}\label{class_weather_app}\index{WeatherApp@{WeatherApp}}
+
+
+Klasa obsługująca pełne działanie aplikacji.  
+
+
+Inheritance diagram for Weather\+App\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_weather_app}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_weather_app_a28528e929a4ba34e5b2d69806274bceb}\label{class_weather_app_a28528e929a4ba34e5b2d69806274bceb} 
+{\bfseries Weather\+App} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa obsługująca pełne działanie aplikacji. 
+
+W tej klasie znajdują się wszystkie funkcje zapewniające działanie aplikacji. Aplikacja pobiera dane z Open\+Weather API, wyświetla dane o jakości powietrza w formie wykresów, podaje lokalizację oraz kraj stacji pomiarowej, podaje wartości minimalne, maksymalne oraz średnie dla szkodliwych czynników typu PM10, PM2.\+5 oraz NO2. Aplikacja oferuje "{}tryb offline"{}\+: jeśli wcześniej aplikacja została wykorzystana do wyszukania danych dla dowolnej lokalizacji, będzie można skorzystać z zapisanego pliku JSON do odtworzenia poprzednich danych. \begin{DoxyAuthor}{Author}
+Dariusz Murawko 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+4 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+22/04/2025 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]Skalowanie wykresów uniemożliwia odczytanie osi czasu -\/ użytkownik powinien przyjąć, że każdy fragment wykresu oddzielony pionowo oznacza jeden dzień przy czym początek wykresu to dane sprzed dwóch dni a koniec to prognoza na trzeci dzień od dnia wywołania skryptu. \end{DoxyRefDesc}
+\begin{DoxyCopyright}{Copyright}
+GNU Public License 
+\end{DoxyCopyright}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/dariu/\+Documents/\+Air-\/\+Pollution\+App/main.\+cpp\end{DoxyCompactItemize}
